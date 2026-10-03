@@ -1,5 +1,5 @@
 {
-  "fallback": "Check out my 3D printing quote on Open3DCalc",
+  "fallback": "Check out my 3D printing quote on Clube 3D Brasília",
   "whatsapp": {
     "emoji": "👇",
     "linkLabel": "See the full breakdown:"
@@ -9,7 +9,7 @@
     "linkLabel": "Full breakdown:"
   },
   "x": {
-    "hashtags": ["#3dprinting", "#3dprint", "#quote", "#Open3DCalc"]
+    "hashtags": ["#3dprinting", "#3dprint", "#quote", "#Clube3DBrasilia"]
   },
   "instagram": {
     "hashtags": [
@@ -17,7 +17,7 @@
       "#3dprint",
       "#3dprojects",
       "#maker",
-      "#Open3DCalc"
+      "#Clube3DBrasilia"
     ]
   },
   "facebook": {
@@ -25,9 +25,9 @@
     "linkLabel": "Full breakdown:"
   },
   "email": {
-    "subject": "3D printing quote — Open3DCalc",
+    "subject": "3D printing quote — Clube 3D Brasília",
     "intro": "Hi there!",
     "linkLabel": "See the full breakdown:",
-    "signoff": "Calculated with Open3DCalc — the free & open-source 3D calculator."
+    "signoff": "Calculated with Clube 3D Brasília — the free & open-source 3D calculator."
   }
 }

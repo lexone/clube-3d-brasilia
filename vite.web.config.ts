@@ -26,17 +26,20 @@ export default defineConfig(
           maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
         },
         manifest: {
-          name: "Open3DCalc - Calculadora 3D Livre",
-          short_name: "Open3DCalc",
+          name: "Clube 3D Brasília",
+          short_name: "Clube 3D",
           // D2: keep the PWA manifest's lang in sync with the document's
           // static `lang="pt-BR"` and i18n's detection default. vite-plugin-pwa
           // otherwise defaults `lang` to "en".
           lang: "pt-BR",
           description:
             "Calculadora de custos de impressão 3D gratuita, open-source e segura.",
-          theme_color: "#8b5cf6",
+          theme_color: "#2563eb",
           background_color: "#020617",
           display: "standalone",
+          id: "./",
+          start_url: "./",
+          scope: "./",
           icons: [
             { src: "icon-192.png", sizes: "192x192", type: "image/png" },
             { src: "icon-512.png", sizes: "512x512", type: "image/png" },
@@ -45,7 +48,7 @@ export default defineConfig(
       }),
     ],
     build: {
-      outDir: "dist",
+      outDir: "dist-web",
       emptyOutDir: true,
       rollupOptions: {
         input: path.resolve(__dirname, "index.html"),

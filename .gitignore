@@ -82,3 +82,7 @@ release-notes-output/
 
 # v2.0 prototype — future launch, not part of the current build
 Example/
+
+# Local validation evidence
+.validation-upstream/
+validation-*.json

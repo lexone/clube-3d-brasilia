@@ -80,7 +80,7 @@ export function SecondaryNavigation({
         </li>
         <li>
           <a
-            href="https://github.com/ils15/open3dcalc"
+            href="https://github.com/lexone/clube-3d-brasilia"
             target="_blank"
             rel="noopener noreferrer"
             onClick={onNavigate}

@@ -84,7 +84,7 @@ export const StudioQuoteModal: React.FC<StudioQuoteModalProps> = ({
     `• Prazo de Fabricação: ${deliveryDays}\n` +
     `• Condição de Pagamento: ${paymentTerms}\n` +
     `===============================================\n` +
-    `Open3DCalc Studio • Oficina de Manufatura Digital`;
+    `Clube 3D Brasília • Oficina de Manufatura Digital`;
 
   const handleCopy = () => {
     navigator.clipboard?.writeText(quoteText);

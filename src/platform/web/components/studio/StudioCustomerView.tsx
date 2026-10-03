@@ -127,7 +127,7 @@ export const StudioCustomerView: React.FC<StudioCustomerViewProps> = ({
     const cleanPhone = (customer.phone || "").replace(/\D/g, "");
     const text = encodeURIComponent(
       `Olá, ${customer.name}! Tudo bem?\n` +
-        `Estou entrando em contato através do Open3DCalc Studio para falar sobre seus orçamentos de impressão 3D.`,
+        `Estou entrando em contato através do Clube 3D Brasília para falar sobre seus orçamentos de impressão 3D.`,
     );
     window.open(`https://wa.me/${cleanPhone}?text=${text}`, "_blank");
   };

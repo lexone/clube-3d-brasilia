@@ -51,7 +51,7 @@ export function ReportDoc({
   return (
     <Document>
       <Page size="A4" style={styles.page}>
-        <Text style={styles.title}>Open3DCalc</Text>
+        <Text style={styles.title}>Clube 3D Brasília</Text>
         <Text style={styles.subtitle}>Relatório de Custos de Impressão 3D</Text>
 
         <View style={styles.section}>

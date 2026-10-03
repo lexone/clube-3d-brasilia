@@ -17,6 +17,7 @@ import {
   ExternalLink,
 } from "lucide-react";
 import { Tab } from "@/shared/components/AppShell/tabs";
+import { APP_VERSION } from "@/shared/version";
 import { BrandIcon } from "@/platform/web/BrandIcon";
 
 interface StudioSidebarProps {
@@ -123,12 +124,12 @@ export const StudioSidebar: React.FC<StudioSidebarProps> = ({
     {
       label: "Código no GitHub",
       icon: <BrandIcon brand="github" className="w-3.5 h-3.5" />,
-      href: "https://github.com/ils15/open3dcalc",
+      href: "https://github.com/lexone/clube-3d-brasilia",
     },
     {
-      label: "Comunidade Telegram",
-      icon: <BrandIcon brand="telegram" className="w-3.5 h-3.5" />,
-      href: "https://t.me/open3dcalc",
+      label: "Loja 3D Brasília",
+      icon: <ShoppingBag className="w-3.5 h-3.5" />,
+      href: "https://3dbrasilia.com.br",
     },
   ];
 
@@ -140,17 +141,20 @@ export const StudioSidebar: React.FC<StudioSidebarProps> = ({
     >
       {/* Top branding */}
       <div>
-        <div className="h-12 border-b border-[#1a2337] px-4 flex items-center gap-2.5">
+        <div className="h-16 border-b border-[#1a2337] px-4 flex items-center gap-2.5">
           <div className="w-7 h-7 rounded-lg bg-blue-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20 shrink-0">
             <Box className="w-4 h-4" />
           </div>
           {!collapsed && (
-            <div className="flex items-center gap-1.5 overflow-hidden">
+            <div className="flex flex-col min-w-0">
               <span className="font-extrabold text-sm text-slate-100 tracking-tight">
-                Open3DCalc
+                <span className="block">Clube 3D</span>
+                <span className="block text-blue-400 text-[11px]">
+                  Brasília
+                </span>
               </span>
               <span className="text-[10px] font-mono px-1 py-0.2 rounded bg-blue-500/20 text-blue-400 font-bold border border-blue-500/30">
-                v2.5
+                v{APP_VERSION}
               </span>
             </div>
           )}

@@ -316,6 +316,28 @@ export const StudioLayout: React.FC = () => {
               )}
             </motion.div>
           </AnimatePresence>
+          <footer className="mt-8 flex flex-wrap items-center justify-between gap-2 border-t border-slate-800 pt-4 text-xs text-slate-400">
+            <a
+              href="https://3dbrasilia.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
+              Clube 3D Brasília · Visite nossa loja
+            </a>
+            <span>
+              Baseado no{" "}
+              <a
+                href="https://github.com/ils15/open3dcalc"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-white"
+              >
+                Open3DCalc
+              </a>{" "}
+              · Licença MIT
+            </span>
+          </footer>
         </main>
       </div>
 

@@ -48,7 +48,7 @@ export function ExportActionsCard({
     const state = useCalculatorStore.getState();
     const results = state.results;
     if (!results) return;
-    const name = state.productName || "Cotação Open3DCalc";
+    const name = state.productName || "Cotação Clube 3D Brasília";
     const qty = state.quantity || 1;
     const isFdm = state.activeTab === "fdm";
     const pkg = isFdm

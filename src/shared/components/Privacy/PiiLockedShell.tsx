@@ -448,7 +448,7 @@ export function PiiLockedShell(): ReactElement | null {
 
             <div className="text-xs text-slate-300 flex flex-col gap-2.5 leading-relaxed bg-[#070b14] p-3.5 rounded-xl border border-[#1b253b]">
               <p>
-                A proteção do Open3DCalc utiliza{" "}
+                A proteção do Clube 3D Brasília utiliza{" "}
                 <strong>criptografia local AES-256 bits</strong> diretamente no
                 seu navegador (sem servidores externos para total privacidade
                 LGPD).

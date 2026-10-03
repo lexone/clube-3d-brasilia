@@ -34,7 +34,7 @@ describe("windows packaging + auto-update feed", () => {
     >;
     const github = providers.find((p) => p?.provider === "github");
     expect(github, "build.publish precisa de provider github").toBeDefined();
-    expect(`${github?.owner}/${github?.repo}`).toBe("ils15/open3dcalc");
+    expect(`${github?.owner}/${github?.repo}`).toBe("lexone/clube-3d-brasilia");
   });
 
   it("gera instalador NSIS x64 com artifactName versionado", () => {

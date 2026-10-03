@@ -173,12 +173,12 @@ export function Header() {
     const minutes = totalMinutes % 60;
     const name = calcStore?.productName || "Peça 3D";
     const text =
-      `*Orçamento - Open3DCalc Studio*\n` +
+      `*Orçamento - Clube 3D Brasília*\n` +
       `Projeto: *${name}*\n` +
       `Tempo estimado: ${wholeHours}h ${minutes}m\n` +
       `Custo de Produção: ${costFormatted}\n` +
       `*Valor Sugerido: ${suggestedPriceFormatted}*\n\n` +
-      `Proposta emitida via Open3DCalc.`;
+      `Proposta emitida via Clube 3D Brasília.`;
     return encodeURIComponent(text);
   };
 

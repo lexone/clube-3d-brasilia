@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "Open3DCalc",
+    "title": "Clube 3D Brasília",
     "subtitle": "Free & Open-Source 3D Calculator"
   },
   "betaBadge": {
@@ -952,7 +952,7 @@
     },
     "steps": {
       "welcome": {
-        "title": "Welcome to Open3DCalc!",
+        "title": "Welcome to Clube 3D Brasília!",
         "description": "Let's calculate the cost of your 3D prints together. Start by filling in the material data — we've already added example values for you to test."
       },
       "material": {
@@ -1203,7 +1203,7 @@
     }
   },
   "onboarding": {
-    "title": "Welcome to Open3DCalc",
+    "title": "Welcome to Clube 3D Brasília",
     "start": "Start",
     "startTutorial": "Start Interactive Tutorial",
     "skip": "Skip",
@@ -1211,7 +1211,7 @@
     "next": "Next",
     "slideOf": "Slide {{current}} of {{total}}",
     "slide1": {
-      "title": "What is Open3DCalc?",
+      "title": "What is Clube 3D Brasília?",
       "description": "A free and open-source calculator to accurately estimate 3D printing costs."
     },
     "slide2": {
@@ -1230,8 +1230,8 @@
     },
     "consent": {
       "title": "Your Data Privacy",
-      "text1": "By using Open3DCalc's customer and quote features, you acknowledge that:",
-      "item1": "All data is stored exclusively in your browser's localStorage.",
+      "text1": "By using Clube 3D Brasília's customer and quote features, you acknowledge that:",
+      "item1": "Data stays in this browser. Customers, quotes and history use the encrypted vault; preferences use local storage.",
       "item2": "No data is transmitted, copied, or stored on external servers.",
       "item3": "You are solely responsible for data backup and security.",
       "item4": "Data may be lost when clearing browser cache — we recommend periodic backups.",
@@ -1242,7 +1242,7 @@
     "policy": {
       "title": "Privacy Policy",
       "section8Title": "8. Data Export and Portability",
-      "section8Intro": "Open3DCalc supports local data export and import via encrypted .open3dcalc bundles:",
+      "section8Intro": "Clube 3D Brasília supports local data export and import via encrypted .open3dcalc bundles:",
       "section8Item1": "Local export/import via encrypted .open3dcalc bundles",
       "section8Item2": "All data processing happens exclusively client-side",
       "section8Item3": "No data is transmitted to any server during export or import",
@@ -2641,18 +2641,51 @@
         "label": "Project name",
         "placeholder": "e.g. Headphone stand"
       },
-      "materialType": { "label": "Filament" },
-      "weightGrams": { "label": "Part weight", "unit": "g" },
-      "costPerKg": { "label": "Spool price", "unit": "/kg" },
-      "quantity": { "label": "Quantity" },
-      "printer": { "label": "Printer" },
-      "printTimeHours": { "label": "Print time", "unit": "h" },
-      "energyCostPerKwh": { "label": "Energy per kWh", "unit": "/kWh" },
-      "setupTimeMinutes": { "label": "Setup time", "unit": "min" },
-      "postProcessingMinutes": { "label": "Post-processing", "unit": "min" },
-      "hourlyRate": { "label": "Hourly rate", "unit": "/h" },
-      "packagingCost": { "label": "Packaging", "unit": "/unit" },
-      "profitMarginPercent": { "label": "Markup on cost", "unit": "%" }
+      "materialType": {
+        "label": "Filament"
+      },
+      "weightGrams": {
+        "label": "Part weight",
+        "unit": "g"
+      },
+      "costPerKg": {
+        "label": "Spool price",
+        "unit": "/kg"
+      },
+      "quantity": {
+        "label": "Quantity"
+      },
+      "printer": {
+        "label": "Printer"
+      },
+      "printTimeHours": {
+        "label": "Print time",
+        "unit": "h"
+      },
+      "energyCostPerKwh": {
+        "label": "Energy per kWh",
+        "unit": "/kWh"
+      },
+      "setupTimeMinutes": {
+        "label": "Setup time",
+        "unit": "min"
+      },
+      "postProcessingMinutes": {
+        "label": "Post-processing",
+        "unit": "min"
+      },
+      "hourlyRate": {
+        "label": "Hourly rate",
+        "unit": "/h"
+      },
+      "packagingCost": {
+        "label": "Packaging",
+        "unit": "/unit"
+      },
+      "profitMarginPercent": {
+        "label": "Markup on cost",
+        "unit": "%"
+      }
     },
     "nav": {
       "previous": "Previous",
@@ -2676,7 +2709,6 @@
       "invalidQuantity": "Enter a whole-number quantity between 1 and 100,000."
     }
   },
-
   "copilot": {
     "title": "Local assistant",
     "localBadge": "Local suggestions",
@@ -2699,12 +2731,11 @@
   },
   "footer": {
     "navigation": "Useful links",
-    "version": "Open3DCalc v{{version}}",
+    "version": "Clube 3D Brasília v{{version}}",
     "openSource": "Open Source · MIT License",
     "github": "GitHub",
     "telegram": "Telegram Channel"
   },
-
   "persistence": {
     "bridge": {
       "startupAriaLabel": "Could not open local storage",

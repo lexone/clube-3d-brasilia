@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "Open3DCalc",
+    "title": "Clube 3D Brasília",
     "subtitle": "Calculadora 3D Livre & Open-Source"
   },
   "betaBadge": {
@@ -952,7 +952,7 @@
     },
     "steps": {
       "welcome": {
-        "title": "Bem-vindo ao Open3DCalc!",
+        "title": "Bem-vindo ao Clube 3D Brasília!",
         "description": "Vamos calcular juntos o custo das suas impressões 3D. Comece preenchendo os dados do material — já colocamos valores de exemplo para você testar."
       },
       "material": {
@@ -1203,7 +1203,7 @@
     }
   },
   "onboarding": {
-    "title": "Bem-vindo ao Open3DCalc",
+    "title": "Bem-vindo ao Clube 3D Brasília",
     "start": "Começar",
     "startTutorial": "Começar Tutorial Interativo",
     "skip": "Pular",
@@ -1211,7 +1211,7 @@
     "next": "Próximo",
     "slideOf": "Slide {{current}} de {{total}}",
     "slide1": {
-      "title": "O que é o Open3DCalc?",
+      "title": "O que é o Clube 3D Brasília?",
       "description": "Uma calculadora gratuita e open-source para estimar custos de impressão 3D com precisão."
     },
     "slide2": {
@@ -1230,8 +1230,8 @@
     },
     "consent": {
       "title": "Privacidade dos Seus Dados",
-      "text1": "Ao utilizar o cadastro de clientes e orçamentos do Open3DCalc, você declara estar ciente de que:",
-      "item1": "Todos os dados inseridos ficam armazenados exclusivamente no localStorage do seu navegador.",
+      "text1": "Ao utilizar o cadastro de clientes e orçamentos do Clube 3D Brasília, você declara estar ciente de que:",
+      "item1": "Os dados ficam neste navegador. Clientes, orçamentos e histórico são protegidos pelo cofre criptografado; preferências usam armazenamento local.",
       "item2": "Nenhum dado é transmitido, copiado ou armazenado em servidores externos.",
       "item3": "A responsabilidade pelo backup e segurança dos dados é integralmente sua.",
       "item4": "Os dados podem ser perdidos ao limpar o cache do navegador — recomendamos exportar backups periodicamente.",
@@ -1242,7 +1242,7 @@
     "policy": {
       "title": "Política de Privacidade",
       "section8Title": "8. Exportação e Portabilidade de Dados",
-      "section8Intro": "O Open3DCalc suporta exportação e importação local de dados por meio de pacotes criptografados .open3dcalc:",
+      "section8Intro": "O Clube 3D Brasília suporta exportação e importação local de dados por meio de pacotes criptografados .open3dcalc:",
       "section8Item1": "Exportação/importação local via pacotes .open3dcalc criptografados",
       "section8Item2": "Todo o processamento de dados acontece exclusivamente no lado do cliente (client-side)",
       "section8Item3": "Nenhum dado é transmitido a qualquer servidor durante a exportação ou importação",
@@ -2641,18 +2641,51 @@
         "label": "Nome do projeto",
         "placeholder": "Ex.: Suporte para fones"
       },
-      "materialType": { "label": "Filamento" },
-      "weightGrams": { "label": "Peso da peça", "unit": "g" },
-      "costPerKg": { "label": "Preço do carretel", "unit": "/kg" },
-      "quantity": { "label": "Quantidade" },
-      "printer": { "label": "Impressora" },
-      "printTimeHours": { "label": "Tempo de impressão", "unit": "h" },
-      "energyCostPerKwh": { "label": "Energia por kWh", "unit": "/kWh" },
-      "setupTimeMinutes": { "label": "Tempo de preparação", "unit": "min" },
-      "postProcessingMinutes": { "label": "Pós-processamento", "unit": "min" },
-      "hourlyRate": { "label": "Valor por hora", "unit": "/h" },
-      "packagingCost": { "label": "Embalagem", "unit": "/un" },
-      "profitMarginPercent": { "label": "Markup sobre o custo", "unit": "%" }
+      "materialType": {
+        "label": "Filamento"
+      },
+      "weightGrams": {
+        "label": "Peso da peça",
+        "unit": "g"
+      },
+      "costPerKg": {
+        "label": "Preço do carretel",
+        "unit": "/kg"
+      },
+      "quantity": {
+        "label": "Quantidade"
+      },
+      "printer": {
+        "label": "Impressora"
+      },
+      "printTimeHours": {
+        "label": "Tempo de impressão",
+        "unit": "h"
+      },
+      "energyCostPerKwh": {
+        "label": "Energia por kWh",
+        "unit": "/kWh"
+      },
+      "setupTimeMinutes": {
+        "label": "Tempo de preparação",
+        "unit": "min"
+      },
+      "postProcessingMinutes": {
+        "label": "Pós-processamento",
+        "unit": "min"
+      },
+      "hourlyRate": {
+        "label": "Valor por hora",
+        "unit": "/h"
+      },
+      "packagingCost": {
+        "label": "Embalagem",
+        "unit": "/un"
+      },
+      "profitMarginPercent": {
+        "label": "Markup sobre o custo",
+        "unit": "%"
+      }
     },
     "nav": {
       "previous": "Anterior",
@@ -2676,7 +2709,6 @@
       "invalidQuantity": "Informe uma quantidade inteira entre 1 e 100.000."
     }
   },
-
   "copilot": {
     "title": "Assistente local",
     "localBadge": "Sugestões locais",
@@ -2699,12 +2731,11 @@
   },
   "footer": {
     "navigation": "Links úteis",
-    "version": "Open3DCalc v{{version}}",
+    "version": "Clube 3D Brasília v{{version}}",
     "openSource": "Open Source · MIT License",
     "github": "GitHub",
     "telegram": "Canal Telegram"
   },
-
   "persistence": {
     "bridge": {
       "startupAriaLabel": "Falha ao abrir o armazenamento local",

@@ -221,7 +221,9 @@ export function MobileSettingsSheet({
               {/* Version */}
               <div className="flex items-center gap-3 px-4 py-3 rounded-xl text-[var(--color-text-muted)]">
                 <Info className="w-[18px] h-[18px] shrink-0" />
-                <span className="text-xs">Open3DCalc v{APP_VERSION}</span>
+                <span className="text-xs">
+                  Clube 3D Brasília v{APP_VERSION}
+                </span>
               </div>
             </div>
           </motion.div>

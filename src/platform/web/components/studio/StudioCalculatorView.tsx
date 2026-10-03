@@ -1835,7 +1835,7 @@ const StudioCalculatorForm: React.FC<StudioCalculatorFormProps> = ({
             className="w-full flex items-center justify-center gap-1.5 py-1.5 rounded-lg text-[11px] text-slate-400 hover:text-purple-300 hover:bg-purple-950/20 transition-colors"
           >
             <Sparkles className="w-3 h-3 text-purple-400" />
-            <span>Consultar IA Copilot para Otimização de Custos</span>
+            <span>Abrir assistente de demonstração</span>
           </button>
         </div>
       </div>
