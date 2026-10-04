@@ -34,6 +34,8 @@ import { PrivacyOnboarding } from "@/shared/components/Privacy/PrivacyOnboarding
 import { LegacyMigrationPrompt } from "@/shared/components/Privacy/LegacyMigrationPrompt";
 import { PiiLockedShell } from "@/shared/components/Privacy/PiiLockedShell";
 
+import { DataSyncModal } from "@/shared/components/ui/DataSyncModal";
+
 export const StudioLayout: React.FC = () => {
   const [activeTab, setActiveTab] = useState<Tab>("calculator");
   const [layoutMode, setLayoutMode] = useState<LayoutMode>("classic");
@@ -64,6 +66,8 @@ export const StudioLayout: React.FC = () => {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  const [isBackupOpen, setIsBackupOpen] = useState(false);
 
   // Modals state
   const [isMiniDashOpen, setIsMiniDashOpen] = useState(false);
@@ -153,6 +157,7 @@ export const StudioLayout: React.FC = () => {
         {/* Left Navigation Sidebar */}
         {!focusMode && (
           <StudioSidebar
+            onOpenBackup={() => setIsBackupOpen(true)}
             activeTab={activeTab}
             onTabChange={setActiveTab}
             collapsed={sidebarCollapsed}
@@ -343,6 +348,10 @@ export const StudioLayout: React.FC = () => {
       )}
 
       {/* Modals & Overlays */}
+      <DataSyncModal
+        open={isBackupOpen}
+        onRequestClose={() => setIsBackupOpen(false)}
+      />
       <StudioMiniDashOverlay
         isOpen={isMiniDashOpen}
         onClose={() => setIsMiniDashOpen(false)}

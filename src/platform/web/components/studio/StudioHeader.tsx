@@ -121,6 +121,11 @@ export const StudioHeader: React.FC<StudioHeaderProps> = ({
           onClick={() => onTabChange("calculator")}
           className="flex items-center gap-1.5 hover:text-white transition-colors"
         >
+          <img
+            src="./logo-3d-brasilia.png"
+            alt="3D Brasília"
+            className="h-8 w-8 rounded bg-white object-contain shrink-0"
+          />
           <span className="text-slate-400 font-medium">Clube 3D Brasília</span>
         </button>
         <ChevronRight className="w-3 h-3 text-slate-600" />

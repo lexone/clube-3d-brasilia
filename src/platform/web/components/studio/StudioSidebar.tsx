@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  Box,
+  Download,
   Calculator,
   BarChart3,
   Grid3x3,
@@ -20,6 +20,7 @@ import { Tab } from "@/shared/components/AppShell/tabs";
 import { APP_VERSION } from "@/shared/version";
 
 interface StudioSidebarProps {
+  onOpenBackup: () => void;
   activeTab: Tab;
   onTabChange: (tab: Tab) => void;
   collapsed: boolean;
@@ -42,6 +43,7 @@ interface StudioModule {
 
 export const StudioSidebar: React.FC<StudioSidebarProps> = ({
   activeTab,
+  onOpenBackup,
   onTabChange,
   collapsed,
   onToggleCollapse,
@@ -136,9 +138,11 @@ export const StudioSidebar: React.FC<StudioSidebarProps> = ({
       {/* Top branding */}
       <div>
         <div className="h-16 border-b border-[#1a2337] px-4 flex items-center gap-2.5">
-          <div className="w-7 h-7 rounded-lg bg-blue-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20 shrink-0">
-            <Box className="w-4 h-4" />
-          </div>
+          <img
+            src="./logo-3d-brasilia.png"
+            alt="3D Brasília"
+            className="w-10 h-10 shrink-0 rounded-lg object-contain bg-white"
+          />
           {!collapsed && (
             <div className="flex flex-col min-w-0">
               <span className="font-extrabold text-sm text-slate-100 tracking-tight">
@@ -209,6 +213,15 @@ export const StudioSidebar: React.FC<StudioSidebarProps> = ({
             </p>
           )}
           <nav className="flex flex-col gap-1">
+            <button
+              type="button"
+              onClick={onOpenBackup}
+              title="Backup e importação"
+              className="w-full flex items-center gap-2.5 px-2.5 py-2 rounded-lg text-xs font-medium text-slate-300 hover:bg-[#121828]"
+            >
+              <Download className="w-3.5 h-3.5 shrink-0" />
+              {!collapsed && <span>Backup e importação</span>}
+            </button>
             {resources.map((r, i) => {
               if (r.href) {
                 return (

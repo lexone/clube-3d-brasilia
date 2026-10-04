@@ -1584,15 +1584,15 @@
     "deleteConfirm": "Tem certeza que deseja excluir o orçamento #{{number}}?"
   },
   "sync": {
-    "title": "Sincronização de Dados",
+    "title": "Backup e importação",
     "export": {
       "tab": "Exportar",
       "title": "Exportar Dados",
-      "description": "Exporte todos os seus dados localmente. Nenhum dado é enviado a servidores.",
+      "description": "Salve um backup criptografado em um arquivo no computador ou em uma unidade externa. Desbloqueie o perfil antes de exportar para incluir clientes, orçamentos e histórico.",
       "encrypt": "Criptografar dados com senha",
       "password": "Senha para criptografia",
-      "passwordPlaceholder": "Digite uma senha (opcional)",
-      "button": "Exportar Dados",
+      "passwordPlaceholder": "Crie uma senha para o arquivo de backup",
+      "button": "Baixar arquivo de backup",
       "success": "Dados exportados com sucesso",
       "downloading": "Preparando download...",
       "piiExcluded": "Clientes, orçamentos e histórico NÃO foram incluídos: eles são protegidos pelo cofre criptografado e estavam indisponíveis no momento da exportação. Desbloqueie o cofre e exporte novamente para incluí-los."

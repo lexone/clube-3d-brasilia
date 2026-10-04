@@ -1584,15 +1584,15 @@
     "deleteConfirm": "Are you sure you want to delete quote #{{number}}?"
   },
   "sync": {
-    "title": "Data Synchronization",
+    "title": "Backup and import",
     "export": {
       "tab": "Export",
       "title": "Export Data",
-      "description": "Export all your data locally. No data is sent to servers.",
+      "description": "Save an encrypted backup file to your computer or external drive. Unlock your profile before exporting to include customers, quotes and history.",
       "encrypt": "Encrypt data with password",
       "password": "Encryption password",
-      "passwordPlaceholder": "Enter a password (optional)",
-      "button": "Export Data",
+      "passwordPlaceholder": "Choose a password for the backup file",
+      "button": "Download backup file",
       "success": "Data exported successfully",
       "downloading": "Preparing download...",
       "piiExcluded": "Customers, quotes and history were NOT included: they are protected by the encrypted vault and were unavailable at export time. Unlock the vault and export again to include them."
