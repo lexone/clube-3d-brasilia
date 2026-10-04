@@ -1,7 +1,7 @@
 {
   "name": "clube-3d-brasilia",
   "private": true,
-  "version": "2.0.0-beta.9",
+  "version": "1.0.0",
   "main": "electron/dist/electron/main.js",
   "type": "module",
   "scripts": {

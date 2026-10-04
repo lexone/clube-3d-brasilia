@@ -40,12 +40,12 @@ export function Footer({
             ·
           </span>
           <a
-            href="https://github.com/lexone/clube-3d-brasilia"
+            href="https://3dbrasilia.com.br"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[var(--color-text-secondary)] transition-colors focus-visible:ring-2 focus-visible:ring-[var(--color-accent)] focus-visible:outline-none px-1 rounded"
           >
-            {t("footer.github")}
+            Loja 3D Brasília
           </a>
           <span aria-hidden="true" className="text-[var(--color-border)]">
             ·

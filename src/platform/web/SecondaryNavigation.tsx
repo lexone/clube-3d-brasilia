@@ -80,15 +80,15 @@ export function SecondaryNavigation({
         </li>
         <li>
           <a
-            href="https://github.com/lexone/clube-3d-brasilia"
+            href="https://3dbrasilia.com.br"
             target="_blank"
             rel="noopener noreferrer"
             onClick={onNavigate}
             className={itemClass}
-            aria-label={t("footer.github")}
+            aria-label={"Loja 3D Brasília"}
           >
-            <BrandIcon brand="github" className="w-[18px] h-[18px] shrink-0" />
-            <span>{t("footer.github")}</span>
+            <BookOpen className="w-[18px] h-[18px] shrink-0" />
+            <span>{"Loja 3D Brasília"}</span>
           </a>
         </li>
         <li>

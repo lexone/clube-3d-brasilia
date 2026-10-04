@@ -321,22 +321,11 @@ export const StudioLayout: React.FC = () => {
               href="https://3dbrasilia.com.br"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-white"
+              className="rounded-lg bg-orange-600 px-4 py-2 font-bold text-white hover:bg-orange-500"
             >
               Clube 3D Brasília · Visite nossa loja
             </a>
-            <span>
-              Baseado no{" "}
-              <a
-                href="https://github.com/ils15/open3dcalc"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:text-white"
-              >
-                Open3DCalc
-              </a>{" "}
-              · Licença MIT
-            </span>
+            <span>Baseado no Open3DCalc · Licença MIT</span>
           </footer>
         </main>
       </div>

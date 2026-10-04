@@ -18,7 +18,6 @@ import {
 } from "lucide-react";
 import { Tab } from "@/shared/components/AppShell/tabs";
 import { APP_VERSION } from "@/shared/version";
-import { BrandIcon } from "@/platform/web/BrandIcon";
 
 interface StudioSidebarProps {
   activeTab: Tab;
@@ -122,11 +121,6 @@ export const StudioSidebar: React.FC<StudioSidebarProps> = ({
       tab: "changelog" as Tab,
     },
     {
-      label: "Código no GitHub",
-      icon: <BrandIcon brand="github" className="w-3.5 h-3.5" />,
-      href: "https://github.com/lexone/clube-3d-brasilia",
-    },
-    {
       label: "Loja 3D Brasília",
       icon: <ShoppingBag className="w-3.5 h-3.5" />,
       href: "https://3dbrasilia.com.br",
@@ -154,7 +148,7 @@ export const StudioSidebar: React.FC<StudioSidebarProps> = ({
                 </span>
               </span>
               <span className="text-[10px] font-mono px-1 py-0.2 rounded bg-blue-500/20 text-blue-400 font-bold border border-blue-500/30">
-                v{APP_VERSION}
+                v{APP_VERSION.replace(/\.0$/, "")}
               </span>
             </div>
           )}
@@ -224,13 +218,13 @@ export const StudioSidebar: React.FC<StudioSidebarProps> = ({
                     target="_blank"
                     rel="noreferrer"
                     title={r.label}
-                    className="w-full flex items-center gap-2.5 px-2.5 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-slate-200 hover:bg-[#121828] transition-colors"
+                    className="mt-2 w-full flex items-center gap-2.5 px-3 py-3 rounded-xl text-sm font-bold text-white bg-orange-600 hover:bg-orange-500 border border-orange-400/40 shadow-lg shadow-orange-950/30 transition-colors"
                   >
                     {r.icon}
                     {!collapsed && (
                       <div className="flex-1 flex items-center justify-between text-left">
                         <span className="truncate">{r.label}</span>
-                        <ExternalLink className="w-3 h-3 text-slate-600" />
+                        <ExternalLink className="w-3 h-3 opacity-70" />
                       </div>
                     )}
                   </a>
