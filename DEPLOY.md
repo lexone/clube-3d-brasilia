@@ -14,6 +14,8 @@ Após propagação DNS, emitir o certificado pelo SSL/TLS/AutoSSL e ativar redir
 
 ## Rebuild e verificações
 
+Publicação concluída em 03/10/2026: DNS salvo no Registro.br, pacote extraído na pasta do Clube e certificado AutoSSL emitido (vencimento exibido: 01/01/2027, renovação automática). HTTP redireciona para HTTPS via .htaccess. Exemplos FDM e resina conferidos no endereço final. O ZIP de instalação foi movido para o diretório inicial da conta, fora da pasta pública.
+
 1. Conecte o fork lexone/clube-3d-brasilia à hospedagem estática escolhida. Use a branch com a personalização aprovada.
 2. Instalação: npm ci --ignore-scripts. Build: npm run build:web. Pasta pública: dist-web. Node: 24.15+ ou 22.22.2+.
 3. Na hospedagem, adicione clube.3dbrasilia.com.br como domínio personalizado e copie o registro DNS fornecido por ela.
